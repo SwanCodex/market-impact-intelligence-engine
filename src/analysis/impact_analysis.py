@@ -5,7 +5,8 @@ def impact_analysis(input_path, output_path):
     df = pd.read_csv(input_path)
 
     # Keep only rows with valid returns
-    df = df.dropna(subset=["ret_1d", "ret_3d", "ret_7d"])
+    df = df.dropna(subset=["ret_1d", "ret_3d", "ret_7d"], how="all")
+
 
     results = []
 

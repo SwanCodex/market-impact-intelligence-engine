@@ -1,1 +1,8 @@
-
+event_type,count,avg_ret_1d,avg_ret_3d,avg_ret_7d,volatility_1d,volatility_3d,volatility_7d
+Corporate,23,-0.005167567456160702,,,1.7737108939428795e-18,,
+Politics,4,-0.0051675674561607,,,0.0,,
+Monetary Policy,1,-0.0051675674561607,,,,,
+Global Trade,10,-0.005167567456160699,,,9.14279549108516e-19,,
+Economics,5,-0.0051675674561607,,,0.0,,
+Inflation,3,-0.0051675674561607,,,0.0,,
+Geopolitics,3,-0.0051675674561607,,,0.0,,
