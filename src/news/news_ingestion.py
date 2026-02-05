@@ -8,13 +8,14 @@ load_dotenv()
 
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
-NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
+NEWS_API_URL = "https://newsapi.org/v2/everything"
 
-def fetch_news(country="in", category="business", page_size=50):
+def fetch_news(query="economy OR inflation OR market OR stocks", page_size=50):
     params = {
         "apiKey": NEWS_API_KEY,
-        "country": country,
-        "category": category,
+        "q": query,
+        "language": "en",
+        "sortBy": "publishedAt",
         "pageSize": page_size,
     }
 
